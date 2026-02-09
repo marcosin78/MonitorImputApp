@@ -72,3 +72,4 @@ C:\Users\marcb\OneDrive\Desktop\AppSeguimiento\MonitorInputApp\obj\Debug\net10.0
 C:\Users\marcb\OneDrive\Desktop\AppSeguimiento\MonitorInputApp\obj\Debug\net10.0\MonitorInputApp.pdb
 C:\Users\marcb\OneDrive\Desktop\AppSeguimiento\MonitorInputApp\obj\Debug\net10.0\MonitorInputApp.genruntimeconfig.cache
 C:\Users\marcb\OneDrive\Desktop\AppSeguimiento\MonitorInputApp\obj\Debug\net10.0\ref\MonitorInputApp.dll
+C:\Users\marcb\OneDrive\Desktop\AppSeguimiento\MonitorInputApp\obj\Debug\net10.0\MonitorInputApp.sourcelink.json
