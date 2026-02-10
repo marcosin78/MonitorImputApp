@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:MonitorInputApp.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="MonitorInputApp.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="MonitorInputApp">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <DockPanel>
+        <StackPanel Orientation="Vertical" Margin="10,10,0,0" DockPanel.Dock="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Interfaz de trabajo"
+                       FontWeight="Bold"
+                       FontSize="20"/>
+            <StackPanel Orientation="Vertical" Margin="0,10,0,0">
+                <CheckBox Content="Pausar monitorización de teclado" />
+                <CheckBox Content="Pausar monitorización de ratón" />
+                <CheckBox Content="Pausar monitorización de ventanas activas" />
+            </StackPanel>
+        </StackPanel>
+        <TextBlock Text="Buenas tardes" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </DockPanel>
+</Window>
